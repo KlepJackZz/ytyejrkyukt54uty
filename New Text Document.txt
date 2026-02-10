@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int num1, num2, option;
+	
+	cout << ">>>>>> Welcome to the Calculator <<<<<<" << endl << endl;
+	
+	cout << "Enter the first Number: ";
+	cin >> num1;
+	
+	cout << "Enter the second Number: ";
+	cin >> num2;
+	
+	cout << endl;
+	cout << "1. Addition" << endl;
+	cout << "2. Subtraction" << endl;
+	cout << "3. Multiplication" << endl;
+	cout << "4. Division" << endl;
+	
+	cout << "Choose one of the operations: ";
+	cin >> option;
+    cout << "\nOption : "<<option<<endl;
+	switch (option) {
+	case 1:
+	    cout << "Reslt : "<< num1+num2;
+		break;
+		
+	case 2:
+	    cout << "reslt : "<< num1-num2;
+		break;
+		
+	case 3:
+	    cout << "reslt : "<< num1*num2;
+		break;
+		
+	case 4:
+        cout << "reslt : "<< num1/num2;
+		break;
+		
+	}
+	
+	return 0;
+	
+}
