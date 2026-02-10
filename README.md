@@ -8,8 +8,8 @@ void welcome(string username)
 int main()
 {
 
-	string name;
-	cout << "Enter your somlanh up name : ";cin>>name;
-	welcome(name);
+string name;
+cout << "Enter your somlanh up name : ";cin>>name;
+welcome(name);
 	
 }
